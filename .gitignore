@@ -1,0 +1,11 @@
+.DS_Store
+.vagrant
+*.retry
+
+config.yml
+
+roles
+roles/geerlingguy.*
+
+setup/networking/inventory
+setup/networking/vars.yml
