@@ -26,8 +26,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   boxes = [
     { :name => "kube1", :ip => "192.168.77.2" },
     { :name => "kube2", :ip => "192.168.77.3" },
-    { :name => "kube3", :ip => "192.168.77.4" },
-    { :name => "kube4", :ip => "192.168.77.5" }
+    # { :name => "kube3", :ip => "192.168.77.4" },
+    # { :name => "kube4", :ip => "192.168.77.5" }
   ]
 
   # Configure each of the VMs.
